@@ -1,0 +1,34 @@
+﻿@model NewsArticle
+@{
+    ViewData["Title"] = "Xóa bài viết";
+}
+
+<h2 class="text-danger mb-3">Xác nhận xóa bài viết</h2>
+<p class="fw-semibold">Bạn có chắc chắn muốn xóa bài viết sau không?</p>
+
+<table class="table table-bordered shadow-sm">
+    <tbody>
+        <tr>
+            <th class="w-25">Tiêu đề</th>
+            <td>@Model.NewsTitle</td>
+        </tr>
+        <tr>
+            <th>Tiêu điểm</th>
+            <td>@Model.Headline</td>
+        </tr>
+        <tr>
+            <th>Ngày tạo</th>
+            <td>@Model.CreatedDate?.ToString("dd/MM/yyyy")</td>
+        </tr>
+        <tr>
+            <th>Nội dung</th>
+            <td style="white-space: pre-wrap;">@Model.NewsContent</td>
+        </tr>
+    </tbody>
+</table>
+
+<form asp-action="DeleteNewsArticle" method="post" class="d-flex gap-2">
+    <input type="hidden" name="NewsArticleId" value="@Model.NewsArticleId" />
+    <button type="submit" class="btn btn-danger">Xác nhận xóa</button>
+    <a class="btn btn-secondary" href="@Url.Action("ManageNews", "Staff")">Hủy</a>
+</form>

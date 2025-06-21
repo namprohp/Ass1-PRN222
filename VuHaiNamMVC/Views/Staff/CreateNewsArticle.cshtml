@@ -1,0 +1,107 @@
+﻿@model VuHaiNamMVC.Models.NewsArticle
+
+@{
+    ViewData["Title"] = "Thêm bài viết";
+}
+
+<h2 class="text-primary mb-4">Thêm bài viết mới</h2>
+
+<!-- Thông báo -->
+@if (TempData["ErrorMessage"] != null)
+
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+@if (TempData["SuccessMessage"] != null)
+
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+
+<form asp-action="CreateNewsArticle" method="post" class="shadow p-4 rounded bg-light">
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label class="form-label fw-semibold">Mã bài viết</label>
+            <input type="text" name="NewsArticleId" class="form-control" placeholder="Nhập mã bài viết duy nhất" required />
+        </div>
+        <div class="col-md-6">
+            <label class="form-label fw-semibold">Tiêu đề</label>
+            <input type="text" name="NewsTitle" class="form-control" required />
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Tiêu điểm</label>
+        <input type="text" name="Headline" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Nội dung bài viết</label>
+        <textarea name="NewsContent" class="form-control" rows="5" required></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Nguồn (không bắt buộc)</label>
+        <input type="text" name="NewsSource" class="form-control" />
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-md-6">
+            <label class="form-label fw-semibold">Chuyên mục</label>
+            <select name="CategoryId" class="form-select" required>
+                <option value="">-- Chọn chuyên mục --</option>
+                @foreach (var category in ViewBag.Categories)
+
+                {
+                    <option value="@category.CategoryId">@category.CategoryName</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label fw-semibold">Người tạo</label>
+            <select name="CreatedById" class="form-select" required>
+                <option value="">-- Chọn người tạo --</option>
+                @foreach (var user in ViewBag.SystemAccounts)
+
+                {
+                    <option value="@user.AccountId">@user.AccountName</option>
+                }
+            </select>
+        </div>
+    </div>
+
+    <div class="mb-4">
+        <label class="form-label fw-semibold">Người cập nhật (không bắt buộc)</label>
+        <select name="UpdatedById" class="form-select">
+            <option value="">-- Chọn người cập nhật --</option>
+            @foreach (var user in ViewBag.SystemAccounts)
+            {
+                <option value="@user.AccountId">@user.AccountName</option>
+            }
+        </select>
+    </div>
+
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-success">Thêm bài viết</button>
+        <a href="@Url.Action("ManageNewsArticle", "Staff")" class="btn btn-secondary">Quay lại</a>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        setTimeout(() => {
+            const alerts = document.querySelectorAll(".alert");
+            alerts.forEach(alert => {
+                alert.style.transition = "opacity 0.5s ease-out";
+                alert.style.opacity = "0";
+                setTimeout(() => alert.style.display = "none", 500);
+            });
+        }, 5000);
+    </script>
+}

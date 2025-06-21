@@ -1,0 +1,741 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\home\\viewnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\home\\viewnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\admin\\viewnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\admin\\viewnews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\admin\\managecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\admin\\managecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\admin\\reportstatistics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\admin\\reportstatistics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\admin\\managenews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\admin\\managenews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\admin\\manageaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\admin\\manageaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\staff\\viewnewshistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\staff\\viewnewshistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\staff\\viewnewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\staff\\viewnewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\staff\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\staff\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\staff\\managenewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\staff\\managenewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\staff\\managecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\staff\\managecategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\staff\\editnewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\staff\\editnewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\staff\\deletenewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\staff\\deletenewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\staff\\createnewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\staff\\createnewsarticle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\models\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\models\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\models\\funewsmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\models\\funewsmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\services\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|c:\\users\\dell\\desktop\\vuhainam_se1841_a01\\vuhainammvc\\vuhainammvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2AAA0117-CF37-4063-AE0B-360B98508F55}|VuHaiNamMVC\\VuHaiNamMVC.csproj|solutionrelative:vuhainammvc\\vuhainammvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManageCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\ManageCategory.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Admin\\ManageCategory.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\ManageCategory.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Admin\\ManageCategory.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:18:41.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportStatistics.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\ReportStatistics.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Admin\\ReportStatistics.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\ReportStatistics.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Admin\\ReportStatistics.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:18:51.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewNews.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\ViewNews.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Admin\\ViewNews.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\ViewNews.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Admin\\ViewNews.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:18:54.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManageAccount.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\ManageAccount.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Admin\\ManageAccount.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\ManageAccount.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Admin\\ManageAccount.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:18:37.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewNews.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Home\\ViewNews.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Home\\ViewNews.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Home\\ViewNews.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Home\\ViewNews.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T13:47:11.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageNews.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\ManageNews.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Admin\\ManageNews.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\ManageNews.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Admin\\ManageNews.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:18:45.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:18:34.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Admin\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Admin\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:18:30.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:18:26.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\appsettings.json",
+              "RelativeToolTip": "VuHaiNamMVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-17T04:06:44.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:18:57.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewNewsHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\ViewNewsHistory.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Staff\\ViewNewsHistory.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\ViewNewsHistory.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Staff\\ViewNewsHistory.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T13:39:25.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ViewNewsArticle.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\ViewNewsArticle.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Staff\\ViewNewsArticle.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\ViewNewsArticle.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Staff\\ViewNewsArticle.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:20:04.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\Profile.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Staff\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\Profile.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Staff\\Profile.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:20:00.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManageNewsArticle.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\ManageNewsArticle.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Staff\\ManageNewsArticle.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\ManageNewsArticle.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Staff\\ManageNewsArticle.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:19:55.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ManageCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\ManageCategory.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Staff\\ManageCategory.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\ManageCategory.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Staff\\ManageCategory.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:19:48.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditNewsArticle.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\EditNewsArticle.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Staff\\EditNewsArticle.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\EditNewsArticle.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Staff\\EditNewsArticle.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAADwv0kAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:19:42.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DeleteNewsArticle.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\DeleteNewsArticle.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Staff\\DeleteNewsArticle.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\DeleteNewsArticle.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Staff\\DeleteNewsArticle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:19:37.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateNewsArticle.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\CreateNewsArticle.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Staff\\CreateNewsArticle.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Staff\\CreateNewsArticle.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Staff\\CreateNewsArticle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:19:30.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Controllers\\StaffController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAAAL0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:16:49.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LecturerController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Controllers\\LecturerController.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Controllers\\LecturerController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Controllers\\LecturerController.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Controllers\\LecturerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:17:05.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:17:09.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:15:27.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:15:21.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:19:03.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T04:49:07.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Program.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Program.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:06:54.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "VuHaiNamMVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T09:07:58.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NewsArticle.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\NewsArticle.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Models\\NewsArticle.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\NewsArticle.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Models\\NewsArticle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:16:36.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAqwBQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:17:16.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:17:21.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SystemAccount.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\SystemAccount.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Models\\SystemAccount.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\SystemAccount.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Models\\SystemAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:16:40.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:16:32.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FunewsManagementContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\FunewsManagementContext.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Models\\FunewsManagementContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\FunewsManagementContext.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Models\\FunewsManagementContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:14:12.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:15:53.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\Category.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:16:01.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Models\\Tag.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Models\\Tag.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:16:44.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Services\\AccountService.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Services\\AccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:17:34.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Services\\AuthService.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:17:41.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Services\\EmailService.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:17:46.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Services\\IAccountService.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Services\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Services\\IAccountService.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Services\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:17:53.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Services\\IAuthService.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:18:00.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Services\\IEmailService.cs",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\Services\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\Services\\IEmailService.cs",
+              "RelativeToolTip": "VuHaiNamMVC\\Services\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T04:18:04.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "VuHaiNamMVC.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\VuHaiNamMVC.csproj",
+              "RelativeDocumentMoniker": "VuHaiNamMVC\\VuHaiNamMVC.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\VuHaiNam_SE1841_A01\\VuHaiNamMVC\\VuHaiNamMVC.csproj",
+              "RelativeToolTip": "VuHaiNamMVC\\VuHaiNamMVC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-17T04:06:19.119Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

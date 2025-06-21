@@ -1,0 +1,80 @@
+﻿@model IEnumerable<VuHaiNamMVC.Models.Category>
+
+@{
+    ViewData["Title"] = "Quản lý Danh mục";
+}
+
+<h2 class="my-4 text-primary">Quản lý Danh mục</h2>
+
+<!-- 🔔 Hiển thị thông báo nếu có, tự ẩn sau 5 giây -->
+@if (TempData["SuccessMessage"] != null)
+
+{
+    <div id="alertMessage" class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+
+{
+    <div id="alertMessage" class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+
+<!-- 📋 Bảng hiển thị danh mục -->
+<table class="table table-bordered table-hover shadow-sm">
+    <thead class="table-primary text-center">
+        <tr>
+            <th>Tên Danh mục</th>
+            <th>Mô tả</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+
+        {
+            <tr>
+                <td>@category.CategoryName</td>
+                <td>@category.CategoryDesciption</td>
+                <td>
+                    @(category.IsActive == true ? "Đang hoạt động" : "Ngừng hoạt động")
+                </td>
+                <td>
+                    <form method="post" asp-action="UpdateCategoryStatus">
+                        <input type="hidden" name="categoryId" value="@category.CategoryId" />
+                        <button type="submit" class="btn btn-sm btn-success me-1" name="isActive" value="true"
+                        @(category.IsActive == true ? "disabled" : "")>
+                            Kích hoạt
+                        </button>
+                        <button type="submit" class="btn btn-sm btn-outline-secondary" name="isActive" value="false"
+                        @(category.IsActive == false ? "disabled" : "")>
+                            Vô hiệu
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- ⏳ Script tự động ẩn thông báo sau 5 giây -->
+@section Scripts {
+    <script>
+        setTimeout(function () {
+            var alertMessage = document.getElementById("alertMessage");
+            if (alertMessage) {
+                alertMessage.style.transition = "opacity 1s ease-out";
+                alertMessage.style.opacity = "0";
+                setTimeout(function () {
+                    alertMessage.style.display = "none";
+                }, 1000);
+            }
+        }, 5000);
+    </script>
+}

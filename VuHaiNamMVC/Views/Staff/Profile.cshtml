@@ -1,0 +1,104 @@
+﻿@model VuHaiNamMVC.Models.SystemAccount
+
+@{
+    ViewData["Title"] = "Quản lý hồ sơ";
+}
+
+<h2 class="text-primary mb-4">Quản lý hồ sơ cá nhân</h2>
+
+<!-- Thông báo thành công -->
+@if (!string.IsNullOrEmpty(ViewBag.SuccessMessage))
+
+{
+    <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+        @ViewBag.SuccessMessage
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+
+<!-- Thông báo lỗi -->
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+
+{
+    <div class="alert alert-danger alert-dismissible fade show text-center" role="alert">
+        @ViewBag.ErrorMessage
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+
+<form method="post" asp-action="Profile" class="shadow p-4 rounded bg-light">
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Họ và tên</label>
+        <input type="text" name="AccountName" class="form-control" value="@Model.AccountName" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Email</label>
+        <input type="email" name="AccountEmail" class="form-control" value="@Model.AccountEmail" required />
+    </div>
+
+    <div class="d-flex gap-2 mt-3">
+        <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#changePasswordModal">
+            Đổi mật khẩu
+        </button>
+        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Trang chủ</a>
+    </div>
+</form>
+
+<!-- Modal Đổi mật khẩu -->
+<div class="modal fade" id="changePasswordModal" tabindex="-1" aria-labelledby="changePasswordModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content border-0 shadow">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="changePasswordModalLabel">Đổi mật khẩu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Đóng"></button>
+            </div>
+            <div class="modal-body bg-light">
+                <form id="changePasswordForm" method="post" asp-action="ChangePassword">
+                    <div class="mb-3">
+                        <label class="form-label">Mật khẩu hiện tại</label>
+                        <input type="password" name="OldPassword" class="form-control" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mật khẩu mới</label>
+                        <input type="password" name="NewPassword" class="form-control" required id="newPassword" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Xác nhận mật khẩu mới</label>
+                        <input type="password" name="ConfirmPassword" class="form-control" required id="confirmPassword" />
+                        <span id="passwordError" class="text-danger d-none">Mật khẩu không khớp!</span>
+                    </div>
+                    <div class="text-end">
+                        <button type="submit" class="btn btn-success">Lưu mật khẩu</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Script kiểm tra mật khẩu khớp -->
+@section Scripts {
+    <script>
+        document.getElementById("confirmPassword").addEventListener("input", function () {
+            const newPassword = document.getElementById("newPassword").value;
+            const confirmPassword = this.value;
+            const errorSpan = document.getElementById("passwordError");
+
+            if (newPassword !== confirmPassword) {
+                errorSpan.classList.remove("d-none");
+            } else {
+                errorSpan.classList.add("d-none");
+            }
+        });
+
+        setTimeout(function () {
+            const alertBox = document.querySelector(".alert");
+            if (alertBox) {
+                alertBox.classList.remove("show");
+                alertBox.classList.add("fade");
+            }
+        }, 5000);
+    </script>
+}

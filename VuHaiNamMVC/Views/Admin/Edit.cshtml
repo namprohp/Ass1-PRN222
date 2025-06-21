@@ -1,0 +1,76 @@
+﻿@model VuHaiNamMVC.Models.SystemAccount
+
+@{
+    ViewData["Title"] = "Chỉnh sửa tài khoản";
+}
+
+<h2 class="text-primary mb-4">Chỉnh sửa tài khoản</h2>
+
+@if (TempData["ErrorMessage"] != null)
+
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+
+<form asp-action="Edit" method="post" class="shadow p-4 bg-light rounded">
+    <input type="hidden" asp-for="AccountId" />
+
+    <!-- Họ và tên -->
+    <div class="mb-3">
+        <label asp-for="AccountName" class="form-label fw-semibold">Họ và tên</label>
+        <input asp-for="AccountName" class="form-control" required />
+    </div>
+
+    <!-- Email -->
+    <div class="mb-3">
+        <label asp-for="AccountEmail" class="form-label fw-semibold">Email</label>
+        <input asp-for="AccountEmail" class="form-control" required />
+    </div>
+
+    <!-- Mật khẩu -->
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Mật khẩu</label>
+        <input type="text" name="AccountPassword" class="form-control" value="@Model.AccountPassword" required />
+    </div>
+
+    <!-- Vai trò -->
+    <div class="mb-4">
+        <label class="form-label fw-semibold">Vai trò</label>
+        @if (ViewBag.DisableRoleChange != null && (bool)ViewBag.DisableRoleChange)
+
+        {
+            <input class="form-control bg-light" value="Quản trị viên" readonly />
+            <input type="hidden" asp-for="AccountRole" />
+        }
+
+        else
+
+        {
+            <select asp-for="AccountRole" class="form-select" asp-items="ViewBag.Roles" required>
+                <option value="">-- Chọn vai trò --</option>
+            </select>
+        }
+    </div>
+
+    <!-- Nút thao tác -->
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+        <a asp-action="ManageAccount" class="btn btn-secondary">Hủy</a>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        setTimeout(() => {
+            const alert = document.querySelector('.alert');
+            if (alert) {
+                alert.style.transition = "opacity 0.5s ease-out";
+                alert.style.opacity = "0";
+                setTimeout(() => alert.style.display = "none", 500);
+            }
+        }, 5000);
+    </script>
+}

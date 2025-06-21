@@ -1,0 +1,86 @@
+﻿@model IEnumerable<VuHaiNamMVC.Models.SystemAccount>
+
+@{
+    ViewData["Title"] = "Quản lý tài khoản";
+}
+
+<h2 class="text-primary mb-4">Quản lý tài khoản người dùng</h2>
+
+<!-- 🔔 Thông báo -->
+@if (TempData["SuccessMessage"] != null)
+
+{
+    <div id="alertMessage" class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+
+{
+    <div id="alertMessage" class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+
+<!-- 🔎 Tìm kiếm -->
+<form method="get" class="d-flex gap-2 mb-4">
+    <input type="text" name="search" placeholder="Tìm theo tên hoặc email..." class="form-control w-50" />
+    <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+</form>
+
+<!-- ➕ Thêm tài khoản -->
+<div class="mb-3 text-end">
+    <a asp-action="Create" class="btn btn-success">+ Thêm tài khoản</a>
+</div>
+
+<!-- 📋 Bảng danh sách -->
+<table class="table table-hover table-bordered shadow-sm">
+    <thead class="table-dark text-center">
+        <tr>
+            <th>Họ và tên</th>
+            <th>Email</th>
+            <th>Vai trò</th>
+            <th class="text-center">Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model)
+
+        {
+            <tr>
+                <td>@account.AccountName</td>
+                <td>@account.AccountEmail</td>
+                <td>
+                    @{
+                        var role = account.AccountRole == 1 ? "Nhân viên"
+                        : account.AccountRole == 2 ? "Giảng viên"
+                        : "Quản trị viên";
+                    }
+                    @role
+                </td>
+                <td class="text-center">
+                    <div class="d-flex flex-wrap gap-1 justify-content-center">
+                        <a asp-action="Edit" asp-route-id="@account.AccountId" class="btn btn-warning btn-sm">Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@account.AccountId" class="btn btn-danger btn-sm">Xóa</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- ⏱ Tự ẩn thông báo sau 5 giây -->
+@section Scripts {
+    <script>
+        setTimeout(function () {
+            var alertMessage = document.getElementById("alertMessage");
+            if (alertMessage) {
+                alertMessage.style.transition = "opacity 0.5s ease-out";
+                alertMessage.style.opacity = "0";
+                setTimeout(() => alertMessage.style.display = "none", 500);
+            }
+        }, 5000);
+    </script>
+}

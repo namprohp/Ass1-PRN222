@@ -1,0 +1,31 @@
+﻿@model VuHaiNamMVC.Models.NewsArticle
+
+@{
+    ViewData["Title"] = "Chi tiết Bài viết";
+}
+
+<div class="container my-4">
+    <h2 class="text-primary">@Model.NewsTitle</h2>
+    <h5 class="text-muted mb-4">@Model.Headline</h5>
+
+    <div class="mb-3">
+        <p><strong>Danh mục:</strong> @Model.Category.CategoryName</p>
+        <p><strong>Người tạo:</strong> @Model.CreatedBy.AccountName</p>
+        <p><strong>Ngày tạo:</strong> @Model.CreatedDate?.ToString("yyyy-MM-dd")</p>
+        <p><strong>Ngày chỉnh sửa:</strong> @Model.ModifiedDate?.ToString("yyyy-MM-dd")</p>
+    </div>
+
+    <hr />
+
+    <div class="mb-4" style="white-space: pre-line;">
+        @Model.NewsContent
+    </div>
+
+    @if (!string.IsNullOrEmpty(Model.NewsSource))
+
+    {
+        <p><strong>Nguồn:</strong> @Model.NewsSource</p>
+    }
+
+    <a class="btn btn-outline-secondary mt-3" asp-controller="Home" asp-action="Index">← Quay về Trang chủ</a>
+</div>

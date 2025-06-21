@@ -1,0 +1,41 @@
+﻿@model VuHaiNamMVC.Models.SystemAccount
+
+@{
+    ViewData["Title"] = "Tạo tài khoản";
+}
+
+<h2 class="text-primary mb-4">Tạo tài khoản mới</h2>
+
+<form asp-action="Create" method="post" class="shadow p-4 bg-light rounded">
+    <!-- Tên -->
+    <div class="mb-3">
+        <label asp-for="AccountName" class="form-label fw-semibold">Họ và tên</label>
+        <input asp-for="AccountName" class="form-control" required />
+    </div>
+
+    <!-- Email -->
+    <div class="mb-3">
+        <label asp-for="AccountEmail" class="form-label fw-semibold">Email</label>
+        <input asp-for="AccountEmail" class="form-control" required />
+    </div>
+
+    <!-- Mật khẩu -->
+    <div class="mb-3">
+        <label asp-for="AccountPassword" class="form-label fw-semibold">Mật khẩu</label>
+        <input asp-for="AccountPassword" type="password" class="form-control" required />
+    </div>
+
+    <!-- Vai trò -->
+    <div class="mb-4">
+        <label asp-for="AccountRole" class="form-label fw-semibold">Vai trò</label>
+        <select asp-for="AccountRole" class="form-select" asp-items="ViewBag.Roles" required>
+            <option value="">-- Chọn vai trò --</option>
+        </select>
+    </div>
+
+    <!-- Nút thao tác -->
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-success">Tạo tài khoản</button>
+        <a asp-action="ManageAccount" class="btn btn-secondary">Hủy</a>
+    </div>
+</form>

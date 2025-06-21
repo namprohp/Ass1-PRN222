@@ -1,0 +1,138 @@
+﻿@model IEnumerable<VuHaiNamMVC.Models.Category>
+
+@{
+    ViewData["Title"] = "Quản lý chuyên mục";
+}
+
+<h2 class="text-primary mb-4">Quản lý chuyên mục</h2>
+
+<!-- Thông báo -->
+@if (TempData["SuccessMessage"] != null)
+
+{
+    <div id="alertMessage" class="alert alert-success alert-dismissible fade show text-center" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+
+{
+    <div id="alertMessage" class="alert alert-danger alert-dismissible fade show text-center" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+
+<!-- Nút thêm mới -->
+<div class="mb-3 text-end">
+    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#createModal">+ Thêm chuyên mục</button>
+</div>
+
+<!-- Bảng dữ liệu -->
+<table class="table table-hover table-bordered shadow-sm">
+    <thead class="table-dark text-center">
+        <tr>
+            <th>Tên chuyên mục</th>
+            <th>Mô tả</th>
+            <th class="text-center">Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var category in Model)
+
+        {
+            <tr>
+                <td>@category.CategoryName</td>
+                <td>@category.CategoryDesciption</td>
+                <td class="text-center">
+                    <div class="d-flex flex-wrap justify-content-center gap-2">
+                        <!-- Sửa -->
+                        <button class="btn btn-warning btn-sm"
+                                data-bs-toggle="modal"
+                                data-bs-target="#editModal-@category.CategoryId">
+                            Sửa
+                        </button>
+
+                        <!-- Xoá -->
+                        <form method="post" asp-action="DeleteCategory" class="d-inline">
+                            <input type="hidden" name="id" value="@category.CategoryId" />
+                            <button type="submit" class="btn btn-danger btn-sm"
+                                    onclick="return confirm('Bạn có chắc chắn muốn xóa chuyên mục này không?');">
+                                Xoá
+                            </button>
+                        </form>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- Modal Sửa -->
+            <div class="modal fade" id="editModal-@category.CategoryId" tabindex="-1" aria-labelledby="editModalLabel-@category.CategoryId" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content border-0 shadow">
+                        <div class="modal-header bg-warning">
+                            <h5 class="modal-title text-white" id="editModalLabel-@category.CategoryId">Chỉnh sửa chuyên mục</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body bg-light">
+                            <form method="post" asp-action="EditCategory">
+                                <input type="hidden" name="CategoryId" value="@category.CategoryId" />
+                                <div class="mb-3">
+                                    <label class="form-label">Tên chuyên mục</label>
+                                    <input type="text" name="CategoryName" class="form-control" value="@category.CategoryName" required />
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Mô tả</label>
+                                    <textarea name="CategoryDesciption" class="form-control" required>@category.CategoryDesciption</textarea>
+                                </div>
+                                <div class="text-end">
+                                    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </tbody>
+</table>
+
+<!-- Modal Thêm mới -->
+<div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="createModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content border-0 shadow">
+            <div class="modal-header bg-success text-white">
+                <h5 class="modal-title" id="createModalLabel">Thêm chuyên mục mới</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body bg-light">
+                <form method="post" asp-action="CreateCategory">
+                    <div class="mb-3">
+                        <label class="form-label">Tên chuyên mục</label>
+                        <input type="text" name="CategoryName" class="form-control" required />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mô tả</label>
+                        <textarea name="CategoryDesciption" class="form-control" required></textarea>
+                    </div>
+                    <div class="text-end">
+                        <button type="submit" class="btn btn-success">Thêm</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        setTimeout(function () {
+            var alert = document.getElementById("alertMessage");
+            if (alert) {
+                alert.style.transition = "opacity 1s ease-out";
+                alert.style.opacity = "0";
+                setTimeout(() => alert.style.display = "none", 1000);
+            }
+        }, 5000);
+    </script>
+}

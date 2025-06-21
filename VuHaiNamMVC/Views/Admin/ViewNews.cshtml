@@ -1,0 +1,50 @@
+﻿@model dynamic
+
+@{
+    ViewData["Title"] = "Xem chi tiết bài viết";
+}
+
+<h2 class="text-primary mb-4">Chi tiết bài viết</h2>
+
+<table class="table table-bordered table-striped shadow-sm">
+    <tbody>
+        <tr>
+            <th class="w-25">Tiêu đề</th>
+            <td>@Model.NewsTitle</td>
+        </tr>
+        <tr>
+            <th>Tiêu điểm</th>
+            <td>@Model.Headline</td>
+        </tr>
+        <tr>
+            <th>Ngày tạo</th>
+            <td>@Model.CreatedDate?.ToString("dd/MM/yyyy")</td>
+        </tr>
+        <tr>
+            <th>Nội dung</th>
+            <td style="white-space: pre-wrap;">@Model.NewsContent</td>
+        </tr>
+        <tr>
+            <th>Nguồn</th>
+            <td>@Model.NewsSource</td>
+        </tr>
+        <tr>
+            <th>Chuyên mục</th>
+            <td>@Model.CategoryName</td>
+        </tr>
+        <tr>
+            <th>Người tạo</th>
+            <td>@Model.CreatedByName</td>
+        </tr>
+        <tr>
+            <th>Người chỉnh sửa</th>
+            <td>@Model.UpdatedByName</td>
+        </tr>
+        <tr>
+            <th>Ngày chỉnh sửa</th>
+            <td>@Model.ModifiedDate?.ToString("dd/MM/yyyy")</td>
+        </tr>
+    </tbody>
+</table>
+
+<a asp-action="ManageNews" class="btn btn-secondary mt-3">Quay lại danh sách</a>

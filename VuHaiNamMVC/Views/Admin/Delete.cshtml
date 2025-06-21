@@ -1,0 +1,73 @@
+﻿@model VuHaiNamMVC.Models.SystemAccount
+
+@{
+    ViewData["Title"] = "Xóa tài khoản";
+}
+
+<h2 class="text-danger mb-3">Xác nhận xóa tài khoản</h2>
+
+<!-- Thông báo -->
+@if (TempData["ErrorMessage"] != null)
+
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+
+@if (TempData["SuccessMessage"] != null)
+
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+
+<p class="fw-semibold">Bạn có chắc chắn muốn xóa tài khoản dưới đây?</p>
+
+<table class="table table-bordered shadow-sm">
+    <tbody>
+        <tr>
+            <th class="w-25">Họ và tên</th>
+            <td>@Model.AccountName</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>@Model.AccountEmail</td>
+        </tr>
+        <tr>
+            <th>Vai trò</th>
+            <td>
+                @{
+                    var role = Model.AccountRole == 1 ? "Nhân viên"
+
+                    : Model.AccountRole == 2 ? "Giảng viên"
+
+                    : "Quản trị viên";
+                }
+                @role
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<form asp-action="DeleteConfirmed" asp-route-id="@Model.AccountId" method="post" class="d-flex gap-2">
+    <input type="hidden" asp-for="AccountId" />
+    <button type="submit" class="btn btn-danger">Xác nhận xóa</button>
+    <a asp-action="ManageAccount" class="btn btn-secondary">Hủy</a>
+</form>
+
+@section Scripts {
+    <script>
+        setTimeout(function () {
+            const alert = document.querySelector('.alert');
+            if (alert) {
+                alert.style.transition = "opacity 0.5s ease-out";
+                alert.style.opacity = "0";
+                setTimeout(() => alert.style.display = "none", 500);
+            }
+        }, 5000);
+    </script>
+}

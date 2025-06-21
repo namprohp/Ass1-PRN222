@@ -1,0 +1,73 @@
+﻿@model NewsArticle
+@{
+    ViewData["Title"] = "Chỉnh sửa bài viết";
+}
+
+<h2 class="text-primary mb-4">Chỉnh sửa bài viết</h2>
+
+<form asp-action="EditNewsArticle" method="post" class="shadow p-4 bg-light rounded">
+    <!-- ID (chỉ hiển thị) -->
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Mã bài viết</label>
+        <input type="text" class="form-control" value="@Model.NewsArticleId" readonly />
+        <input type="hidden" name="NewsArticleId" value="@Model.NewsArticleId" />
+    </div>
+
+    <!-- Tiêu đề -->
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Tiêu đề</label>
+        <input type="text" name="NewsTitle" class="form-control" value="@Model.NewsTitle" required />
+    </div>
+
+    <!-- Tiêu điểm -->
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Tiêu điểm</label>
+        <input type="text" name="Headline" class="form-control" value="@Model.Headline" required />
+    </div>
+
+    <!-- Nội dung -->
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Nội dung bài viết</label>
+        <textarea name="NewsContent" class="form-control" rows="5" required>@Model.NewsContent</textarea>
+    </div>
+
+    <!-- Nguồn -->
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Nguồn bài viết</label>
+        <input type="text" name="NewsSource" class="form-control" value="@Model.NewsSource" />
+    </div>
+
+    <!-- Chuyên mục -->
+    <div class="mb-3">
+        <label class="form-label fw-semibold">Chuyên mục</label>
+        <select name="CategoryId" class="form-select" required>
+            <option value="">-- Chọn chuyên mục --</option>
+            @foreach (var category in ViewBag.Categories)
+            {
+
+                var isSelected = Model.CategoryId == category.CategoryId ? "selected" : "";
+                <option value="@category.CategoryId" selected="@isSelected">@category.CategoryName</option>
+            }
+        </select>
+    </div>
+
+    <!-- Người cập nhật -->
+    <div class="mb-4">
+        <label class="form-label fw-semibold">Người cập nhật</label>
+        <select name="UpdatedById" class="form-select">
+            <option value="">-- Chọn người cập nhật (không bắt buộc) --</option>
+            @foreach (var user in ViewBag.SystemAccounts)
+            {
+
+                var isSelected = Model.UpdatedById == user.AccountId ? "selected" : "";
+                <option value="@user.AccountId" selected="@isSelected">@user.AccountName</option>
+            }
+        </select>
+    </div>
+
+    <!-- Nút lưu -->
+    <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+        <a class="btn btn-secondary" href="@Url.Action("ManageNewsArticle", "Staff")">Quay lại</a>
+    </div>
+</form>

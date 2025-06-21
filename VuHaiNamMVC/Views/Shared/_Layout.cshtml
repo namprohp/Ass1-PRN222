@@ -1,0 +1,112 @@
+﻿@using System.Security.Claims
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - VuHaiNamMVC</title>
+
+    <!-- Bootstrap + Custom CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/VuHaiNamMVC.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- 🧭 NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" asp-area="" asp-controller="Home" asp-action="Index">
+                    🎓 VuHaiNamMVC
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">🏠 Trang chủ</a>
+                        </li>
+                 
+
+                        @if (User.Identity.IsAuthenticated)
+
+                        {
+
+                            if (User.IsInRole("Admin"))
+
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Admin" asp-action="ManageAccount">👥 Quản lý tài khoản</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Admin" asp-action="ManageCategory">📂 Quản lý danh mục</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Admin" asp-action="ManageNews">📝 Quản lý tin</a>
+                                </li>
+                            }
+
+                            else if (User.IsInRole("Staff"))
+
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Staff" asp-action="ManageCategory">📂 Danh mục</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Staff" asp-action="ManageNewsArticle">📝 Tin tức</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Staff" asp-action="Profile">👤 Hồ sơ</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Staff" asp-action="ViewNewsHistory">📜 Lịch sử đăng</a>
+                                </li>
+                            }
+
+                        }
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        @if (User.Identity.IsAuthenticated)
+
+                        {
+                            <li class="nav-item">
+                                <span class="nav-link text-white">
+                                    👋 @User.FindFirst(ClaimTypes.Name)?.Value (@User.FindFirst(ClaimTypes.Role)?.Value)
+                                </span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-warning" asp-controller="Account" asp-action="Logout">🚪 Đăng xuất</a>
+                            </li>
+                        }
+
+                        else
+
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-light" asp-controller="Account" asp-action="Login">🔑 Đăng nhập</a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 📄 MAIN CONTENT -->
+    <main role="main" class="container py-4">
+        @RenderBody()
+    </main>
+
+    <!-- ⚙️ SCRIPTS -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,83 @@
+﻿@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "Quản lý bài viết";
+}
+
+<h2 class="text-primary mb-4">Quản lý bài viết</h2>
+
+@if (TempData["SuccessMessage"] != null)
+
+{
+    <div id="alertMessage" class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Đóng"></button>
+    </div>
+}
+
+<table class="table table-hover table-bordered align-middle shadow-sm">
+    <thead class="table-dark text-center">
+        <tr>
+            <th>Tiêu đề</th>
+            <th>Ngày tạo</th>
+            <th>Chuyên mục</th>
+            <th>Người tạo</th>
+            <th>Người cập nhật</th>
+            <th>Ngày chỉnh sửa</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody class="table-group-divider">
+        @foreach (var article in Model)
+
+        {
+            <tr>
+                <td>@article.NewsTitle</td>
+                <td>@article.CreatedDate?.ToString("dd/MM/yyyy")</td>
+                <td>@article.CategoryName</td>
+                <td>@article.CreatedByName</td>
+                <td>@article.UpdatedByName</td>
+                <td>@article.ModifiedDate?.ToString("dd/MM/yyyy")</td>
+                <td class="text-center">
+                    <div class="d-flex flex-column gap-1">
+                        <form method="post" asp-action="UpdateNewsStatus" class="d-flex flex-wrap gap-1 justify-content-center">
+                            <input type="hidden" name="id" value="@article.NewsArticleId" />
+
+                            <button type="submit" class="btn btn-success btn-sm"
+                                    name="newsStatus" value="true"
+                            @(article.NewsStatus == true ? "disabled" : "")>
+                                Duyệt
+                            </button>
+
+                            <button type="submit" class="btn btn-secondary btn-sm"
+                                    name="newsStatus" value="false"
+                            @(article.NewsStatus == false ? "disabled" : "")>
+                                Vô hiệu
+                            </button>
+                        </form>
+
+                        <a asp-action="ViewNews" asp-route-id="@article.NewsArticleId"
+                           class="btn btn-info btn-sm">
+                            Xem chi tiết
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        setTimeout(function () {
+            var alertMessage = document.getElementById("alertMessage");
+            if (alertMessage) {
+                alertMessage.style.transition = "opacity 1s ease-out";
+                alertMessage.style.opacity = "0";
+                setTimeout(function () {
+                    alertMessage.style.display = "none";
+                }, 1000);
+            }
+        }, 5000);
+    </script>
+}

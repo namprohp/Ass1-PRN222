@@ -1,0 +1,34 @@
+﻿@model VuHaiNamMVC.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Đăng nhập hệ thống";
+}
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card shadow p-4" style="width: 100%; max-width: 400px;">
+        <h3 class="text-center text-primary mb-4">🔐 Đăng nhập hệ thống</h3>
+
+        <form asp-action="Login" method="post" novalidate>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label fw-semibold"></label>
+                <input asp-for="Email" class="form-control" placeholder="Nhập email..." />
+                <span asp-validation-for="Email" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label fw-semibold"></label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Nhập mật khẩu..." />
+                <span asp-validation-for="Password" class="text-danger small"></span>
+            </div>
+
+            <div class="form-check mb-3">
+                <input asp-for="RememberMe" class="form-check-input" />
+                <label asp-for="RememberMe" class="form-check-label">Ghi nhớ đăng nhập</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">
+                🔓 Đăng nhập
+            </button>
+        </form>
+    </div>
+</div>

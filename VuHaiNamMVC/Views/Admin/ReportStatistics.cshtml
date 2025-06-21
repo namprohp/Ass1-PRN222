@@ -1,0 +1,70 @@
+﻿@model IEnumerable<VuHaiNamMVC.Models.NewsArticle>
+
+@{
+    ViewData["Title"] = "Thống kê báo cáo";
+}
+
+<h2 class="text-primary mb-4">Thống kê bài viết theo thời gian</h2>
+
+<!-- 📅 Form chọn khoảng thời gian -->
+<form method="get" class="row g-3 align-items-end mb-4">
+    <div class="col-md-3">
+        <label for="startDate" class="form-label fw-semibold">Từ ngày:</label>
+        <input type="date" id="startDate" name="startDate" class="form-control" />
+    </div>
+    <div class="col-md-3">
+        <label for="endDate" class="form-label fw-semibold">Đến ngày:</label>
+        <input type="date" id="endDate" name="endDate" class="form-control" />
+    </div>
+    <div class="col-md-2">
+        <button type="submit" class="btn btn-primary mt-2 w-100">Lọc</button>
+    </div>
+</form>
+
+<!-- 📋 Bảng thống kê -->
+<table class="table table-hover table-bordered shadow-sm">
+    <thead class="table-dark text-center">
+        <tr>
+            <th>Tiêu đề</th>
+            <th>Ngày tạo</th>
+            <th>Chuyên mục</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!Model.Any())
+
+        {
+            <tr>
+                <td colspan="4" class="text-center text-muted">Không có dữ liệu trong khoảng thời gian đã chọn.</td>
+            </tr>
+        }
+
+        else
+
+        {
+            @foreach (var article in Model)
+
+            {
+                <tr>
+                    <td>@article.NewsTitle</td>
+                    <td>@article.CreatedDate?.ToString("dd/MM/yyyy")</td>
+                    <td>@(article.Category != null ? article.Category.CategoryName : "<span class='text-muted'>Không xác định</span>")</td>
+                    <td class="text-center">
+                        @if (article.NewsStatus == true)
+
+                        {
+                            <span class="badge bg-success">Đã đăng</span>
+                        }
+
+                        else
+
+                        {
+                            <span class="badge bg-warning text-dark">Chờ duyệt</span>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
